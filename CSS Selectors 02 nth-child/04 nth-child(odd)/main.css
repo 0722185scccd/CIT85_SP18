@@ -1,0 +1,7 @@
+body {
+    font-size: 40px;
+}
+
+li:nth-child(odd) {
+    color: rgb(9, 172, 49);
+}
