@@ -1,0 +1,7 @@
+body {
+    text-align: center;
+}
+
+div ~ p {
+    color: red;
+}
