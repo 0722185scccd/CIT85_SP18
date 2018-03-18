@@ -1,0 +1,30 @@
+body {
+    font-size: 36px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+
+/* order matters */
+/* LVHA */
+/* Link Visited Hover Active*/
+
+/* unvisited link */
+a:link {
+    color:blue;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
