@@ -1,0 +1,12 @@
+h1 {
+    width: 200px;
+    height: 200px;
+    border-style: groove;
+    color: blue;
+}
+
+p {
+    width: 100px;
+    height: 100px;
+    border-style:  solid
+}
