@@ -1,0 +1,72 @@
+h1 {
+    width: 200px;
+    height: 75px;
+    border-style: ridge;
+    border-color: purple;
+}
+
+body > h1 {
+    width: 200px;
+    height: 75px;
+    border-style: dotted;
+    border-color: rgb(255, 0, 55);
+}
+
+html > body > h1 {
+    width: 200px;
+    height: 75px;
+    border-style: dashed;
+    border-color: rgb(102, 186, 255);
+}
+
+div > p {
+    width: 200px;
+    height: 150px;
+    border-style: outset;
+    border-color: rgb(0, 255, 149);
+}
+
+p.zozo {
+    width: 200px;
+    height: 150px;
+    border-style: outset;
+    border-color: rgb(255, 136, 0);
+}
+
+div > p.zozo {
+    width: 200px;
+    height: 150px;
+    border-style: outset;
+    border-color: rgb(0, 119, 255);
+}
+
+p.jojo {
+    width: 200px;
+    height: 150px;
+    border-style: groove;
+    border-color: rgb(255, 0, 0);
+}
+
+body > p.jojo {
+    width: 200px;
+    height: 150px;
+    border-style: groove;
+    border-color: rgb(255, 153, 0);
+}
+
+#mama {
+    width: 200px;
+    height: 150px;
+    border-style: groove;
+    border-color: rgb(255, 0, 0);
+}
+
+div#mama {
+    width: 200px;
+    height: 150px;
+    border-style: double;
+    border-color: rgb(25, 0, 255);
+}
+
+
+
