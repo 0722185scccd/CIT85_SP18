@@ -1,0 +1,42 @@
+p#ahhh {
+    font-family: serif;
+}
+
+p#zozo {
+    font-family: sans-serif;
+}
+
+p#tata {
+    font-family: 'Orbitron', sans-serif;
+}
+
+p#baba {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+p#coco {
+    letter-spacing: 15px;
+}
+
+h1 {
+    text-shadow: 2px 2px 3px #FF0000;
+}
+
+#haha {
+    text-decoration: none;
+}
+
+a#haha:hover {
+    text-decoration: underline;
+}
+
+#hehe {
+    text-decoration: line-through;
+}
+
+p#lolo {
+    margin-right: 75%;
+    text-indent: 2.5%;
+}
+
