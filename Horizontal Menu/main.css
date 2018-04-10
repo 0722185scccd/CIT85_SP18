@@ -1,0 +1,25 @@
+html, head, body, ul, li, a {
+    box-sizing: border-box;
+
+}
+
+ul {
+    display: inline-block;
+    margin-left: 25%;
+}
+
+li {
+    display: inline-block;
+    border: 2px solid rgb(16, 238, 46);
+    border-radius: 50px;
+    font-size: 2rem;
+}
+
+li:hover {
+    background-color: gold;
+}
+
+a {
+    text-decoration-line: none;
+    padding: 15px;
+}
