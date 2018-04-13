@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+
+}
+
+html {
+    background-color: blue;
+    margin: 0px;
+}
+
+div {
+    background-color: lawngreen;
+    border: 1px solid black;
+    margin: 0px auto;
+    width: 65%;
+}
+
+#s1 {
+    border: 5px yellow groove;
+    width: 20%;
+    padding: 75px;
+    border-radius: 50%;
+    background-image: url(wslsurf.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}

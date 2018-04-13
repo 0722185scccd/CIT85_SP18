@@ -1,0 +1,49 @@
+html, body, main, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    box-sizing: border-box;
+    color: 0;
+}
+
+html {
+    border: 2px dashed lightseagreen;
+
+}
+
+main {
+    border: 2px dashed lightseagreen;
+    width: 75%;
+    height: 500px;
+    margin: 10% auto;
+    padding: 20px;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#s1 {
+    background-color: red;
+    
+}
+
+#s2 {
+    background-color:blue;
+ 
+}
+
+#s3 {
+    background-color: yellow;
+ 
+}
+
+#s4 {
+    background-color: green;
+ 
+}
