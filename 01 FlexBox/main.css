@@ -5,6 +5,10 @@ html, body, main, div {
     box-sizing: border-box;
 }
 
+html {
+    border: 2px solid red;
+    height: 700px auto;
+}
 
 main {
     display: flex;
@@ -23,6 +27,13 @@ div {
     background-color: tomato;
     flex-grow: 1;
     margin: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
 }
 
 #s01 {
@@ -105,21 +116,21 @@ div {
 }
 
 #s17 {
-    order: 18;
+    order: 17;
 
 }
 
 #s18 {
-    order: 19;
+    order: 18;
   
 }
 
 #s19 {
-    order: 1;
+    order: 19;
   
 }
 
 #s20 {
-    order: 1;
-  
+    order: 20;
+    flex-grow: 2;
 }
