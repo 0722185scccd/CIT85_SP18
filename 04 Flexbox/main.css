@@ -1,0 +1,56 @@
+html, body, main, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit
+}
+
+main {
+    border: 3px solid red;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#firstsec {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#scdsec {
+    display: flex;
+    flex-direction: row;
+
+}
+
+div {
+    width: 200px;
+    height: 100;
+}
+
+#one {
+    background-color: rgb(3, 3, 189);
+    display: flex;
+    flex-basis: 60%;
+
+}
+
+#two {
+    background-color: rgb(79, 139, 250);
+    display: flex;
+    flex-basis: 40%;
+}
+
+#three {
+    background-color: rgba(0, 183, 255, 0.548);
+}
+
+#four {
+    background-color: rgba(109, 223, 252, 0.5);
+}
+
+#five {
+    background-color: rgba(0, 255, 213, 0.137);
+}
