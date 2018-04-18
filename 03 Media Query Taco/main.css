@@ -1,0 +1,54 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    box-sizing: inherit;
+}
+
+#container {
+    width: 80%;
+    height: 1000vh auto;
+    border: 4px groove pink;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+
+nav {
+    border: 2px groove red;
+
+}
+
+ul {
+    list-style: none;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 15px auto;
+    padding: 5px;
+}
+
+li:hover {
+    background-color: paleturquoise;
+    cursor: pointer;
+}
+
+main {
+    border: 2px groove red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
