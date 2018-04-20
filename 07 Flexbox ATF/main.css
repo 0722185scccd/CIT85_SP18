@@ -1,0 +1,33 @@
+html, body, section, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+#zaza {
+    height: 100vh;
+    border: 10px solid red;
+    background-image: url(pier.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;    
+}
+
+div {
+    color: aliceblue;
+    font-size: 4rem;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+

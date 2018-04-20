@@ -1,0 +1,24 @@
+header {
+    order: 1;
+}
+
+main {
+    flex-basis: 70%;
+    order: 3;
+}
+
+#s1 {
+    height: 56px;
+    flex-basis: 15%;
+    order: 2;
+}
+
+#s2 {
+    height: 56px;
+    flex-basis: 15%;
+    order: 4;
+}
+
+footer {
+    order: 5;
+}

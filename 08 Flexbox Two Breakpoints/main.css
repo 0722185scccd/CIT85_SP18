@@ -1,0 +1,48 @@
+html, body, header, main, aside, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    padding: 10px;
+    background-color: tomato;
+    flex-basis: 100%;
+}
+
+main {
+    padding: 10px;
+    background-color: skyblue;
+    flex-basis: 100%;
+
+}
+
+#s1 {
+    padding: 10px;
+    background-color: yellow;
+    flex-basis: 100%;
+}
+
+#s2 {
+    padding: 10px;
+    background-color: pink;
+    flex-basis: 100%;
+}
+
+footer {
+    padding: 10px;
+    background-color: palegreen;
+    flex-basis: 100%;
+}

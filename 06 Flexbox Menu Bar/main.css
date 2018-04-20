@@ -1,0 +1,39 @@
+html, body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+li {
+    color: white;
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid whitesmoke;
+}
+
+li:first-child {
+    border-top: none;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+a:hover {
+    background-color: turquoise;
+}
