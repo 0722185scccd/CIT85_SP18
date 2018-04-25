@@ -1,0 +1,48 @@
+html, body, main, header, div, ul, li {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+#atf {
+    height: 100vh;
+    background-image: url(pier.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: blue;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+header>div {
+    height: 100%;
+    border: 1px solid red;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>div:hover {
+    background-color: white;
+}

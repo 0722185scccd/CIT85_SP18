@@ -1,0 +1,19 @@
+html, body, div {
+    border: 2px solid red;
+    height: 350px;
+}
+
+div {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#zozo {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: aquamarine;
+}
+
