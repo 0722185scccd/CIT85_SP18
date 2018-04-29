@@ -1,0 +1,44 @@
+html, body, header, div, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: inherit;
+    font: inherit;
+}
+
+header, footer {
+    height: 150px;
+    border: 10px solid red;
+}
+
+header {
+    background-color: palevioletred;
+}
+
+footer {
+    background-color: rebeccapurple;
+}
+
+main {
+    border: 10px solid black;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div {
+    height: 250px;
+    border: 5px solid green;
+}
+
+#left {
+    flex-basis: 20%;
+    background-color: blue;
+}
+
+#right {
+    flex-basis: 80%;
+    background-color: cyan;
+}

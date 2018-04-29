@@ -1,0 +1,34 @@
+html, body, header, div, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: inherit;
+    font: inherit;
+}
+
+header, footer {
+    height: 150px;
+    border: 10px solid red;
+    background-color: blue;
+}
+
+main {
+    border: 10px solid black;
+}
+
+div {
+    height: 250px;
+    border: 5px solid green;
+    display: inline-block;
+}
+
+#left {
+    width: 20%;
+    background-color: cyan;
+}
+
+#right {
+    width: 80%;
+    background-color: chartreuse;
+}
