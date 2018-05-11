@@ -1,0 +1,28 @@
+
+
+div {
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: lightcoral;
+    width: 120px;
+    height: 120px;
+    animation-name: animation;
+    animation-delay: .5s;
+    animation-direction: normal;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@keyframes animation {
+    0% {left: 0; top: 0;}
+    25% {left: 1250px; top: 0;}
+    50% {top: 500px; right: 0;}
+    75% {top: 500px; left: 500px;}
+    100% {top: 500px; }
+}

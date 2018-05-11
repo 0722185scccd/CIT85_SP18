@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation-name: animation;
+    animation-delay: .5s;
+    animation-direction: normal;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in;
+}
+
+@keyframes animation {
+    0& {background-color: red}
+    25% {background-color: blue}
+    50% {background-color: green}
+    75% {background-color: purple}
+    100% {background-color: yellow}
+}
+
+
